@@ -1,7 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: linear-gradient(blue black);
+   
+}
+body{
+    background-image: linear-gradient(rgb(21, 216, 237),pink,skyblue);
 }
 .head{
     margin-left: 30px;
@@ -14,7 +17,7 @@
     align-items: center;
     position: fixed;
  width:100%;
-
+background-image: linear-gradient(skyblue,rgb(232, 241, 243));
 }
 ul{
     display: flex;
