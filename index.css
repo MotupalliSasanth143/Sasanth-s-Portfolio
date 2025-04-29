@@ -160,11 +160,15 @@ p{
         font-size: 25px;
 margin-bottom: 20px;
     }
+    body{
+        background-image: linear-gradient(rgb(21, 216, 237),pink,skyblue);
+    }
     .Navbhar{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        
+        background-image: linear-gradient(skyblue,rgb(232, 241, 243));
+
     }
     ul{
         display: flex;
