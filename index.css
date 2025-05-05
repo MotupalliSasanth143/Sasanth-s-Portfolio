@@ -170,7 +170,6 @@ p{
 @media screen and (max-width: 600px){
     .head{
         font-size: 25px;
-margin-bottom: 20px;
     }
     body{
         background-image: linear-gradient( #a3a4d6, #e8e8f3);
@@ -179,8 +178,7 @@ margin-bottom: 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-image: linear-gradient(skyblue,rgb(232, 241, 243));
-
+        background-color: rgb(187, 199, 209);
     }
     ul{
         display: flex;
@@ -358,10 +356,26 @@ p{
     .main {
         flex-direction: column; /* Stack the intro and profile vertically */
         align-items: center; /* Center align items */
-        margin-top: 10px; /* Space below the navbar */
+       
         margin-bottom: 60px;
     }
 
 }
 
+ @media screen and (min-width: 768px){
+.h11{
+    text-align: center;
+}
+
+.skill-title h1{
+text-align: center;
+}
+.contact-title{
+    text-align: center;
+}
+.contact-form{
     
+}
+ }
+    
+ 
